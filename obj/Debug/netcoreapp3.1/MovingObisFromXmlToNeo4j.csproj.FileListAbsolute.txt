@@ -1,0 +1,13 @@
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.exe
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.deps.json
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.runtimeconfig.json
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.runtimeconfig.dev.json
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.dll
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.pdb
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.csprojAssemblyReference.cache
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.AssemblyInfoInputs.cache
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.AssemblyInfo.cs
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.csproj.CoreCompileInputs.cache
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.dll
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.pdb
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.genruntimeconfig.cache
