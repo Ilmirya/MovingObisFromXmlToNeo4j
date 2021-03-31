@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Neo4jClient" Version="4.1.6" />
+  </ItemGroup>
+
 </Project>
