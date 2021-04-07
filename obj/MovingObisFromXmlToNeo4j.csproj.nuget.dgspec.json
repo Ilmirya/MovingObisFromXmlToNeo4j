@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj": {}
+    "F:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj": {}
   },
   "projects": {
-    "E:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj": {
+    "F:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj",
+        "projectUniqueName": "F:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj",
         "projectName": "MovingObisFromXmlToNeo4j",
-        "projectPath": "E:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\MovingObisFromXmlToNeo4j\\obj\\",
+        "projectPath": "F:\\projects\\MovingObisFromXmlToNeo4j\\MovingObisFromXmlToNeo4j.csproj",
+        "packagesPath": "C:\\Users\\Reakti1\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\MovingObisFromXmlToNeo4j\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reakti1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
