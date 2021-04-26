@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "MovingObisFromXmlToNeo4j/1.0.0": {
         "dependencies": {
-          "Neo4jClient": "4.1.6"
+          "Neo4jClient": "4.1.6",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "MovingObisFromXmlToNeo4j.dll": {}
@@ -47,7 +48,7 @@
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.VisualBasic": "10.3.0",
           "Neo4j.Driver.Signed": "4.2.0",
-          "Newtonsoft.Json": "12.0.3",
+          "Newtonsoft.Json": "13.0.1",
           "System.ComponentModel.Annotations": "5.0.0",
           "System.Dynamic.Runtime": "4.3.0"
         },
@@ -58,11 +59,11 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.3.23909"
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
           }
         }
       },
@@ -697,12 +698,12 @@
       "path": "neo4jclient/4.1.6",
       "hashPath": "neo4jclient.4.1.6.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.3": {
+    "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "path": "newtonsoft.json/12.0.3",
-      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",

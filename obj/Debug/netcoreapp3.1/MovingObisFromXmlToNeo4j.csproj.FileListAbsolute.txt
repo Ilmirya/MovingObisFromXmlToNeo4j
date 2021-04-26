@@ -29,3 +29,8 @@ F:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlTo
 F:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.dll
 F:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.pdb
 F:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.genruntimeconfig.cache
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\Neo4j.Driver.dll
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\Neo4jClient.dll
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\projects\MovingObisFromXmlToNeo4j\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+E:\projects\MovingObisFromXmlToNeo4j\obj\Debug\netcoreapp3.1\MovingObisFromXmlToNeo4j.csproj.CopyComplete

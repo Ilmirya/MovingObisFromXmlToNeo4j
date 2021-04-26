@@ -7,21 +7,17 @@ using System.Text;
 
 namespace MovingObisFromXmlToNeo4j
 {
-    class Neo4j
+    public class Neo4j
     {
         private readonly GraphClient _client;
-        private Neo4j _instance;
+        private static Neo4j _instance = new Neo4j();
+        public static Neo4j Instance => _instance;
+
         private Neo4j()
         {
             string url = "http://neo4j:matrix@localhost:7474/db/data";
             _client = new GraphClient(new Uri(url));
             _client.ConnectAsync().Wait();
-        }
-
-        public Neo4j Instance()
-        {
-            if (_instance == null) _instance = new Neo4j();
-            return _instance;
         }
 
         public bool AddNode(Guid id, string type, dynamic body)
