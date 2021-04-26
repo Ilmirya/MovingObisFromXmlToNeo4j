@@ -20,27 +20,13 @@ namespace MovingObisFromXmlToNeo4j
             _client.ConnectAsync().Wait();
         }
 
-        public bool AddNode(Guid id, string type, dynamic body)
+        public bool AddNode(string obis, string description, string type, dynamic body)
         {
             var query = _client.Cypher
-                        .Merge($"(t:{type} {{id: {{id}} }})").Set("t = {body}")
-                        .WithParams(new { id = id, body = body })
+                        .Merge($"(t:{type} {{obis: {{obis}}, description: {{description}} }})").Set("t = {body}")
+                        .WithParams(new { obis = obis, description = description, body = body })
                         .Return(t => t.As<string>());
             return query.ResultsAsync.Result != null;
-        }
-    }
-    public static class Extantion
-    {
-        public static dynamic ToDynamic(this string result)
-        {
-            return JsonConvert.DeserializeObject<ExpandoObject>(result);
-        }
-        public static IEnumerable<dynamic> ToDynamic(this IEnumerable<string> nodes)
-        {
-            foreach (var node in nodes)
-            {
-                yield return node.ToDynamic();
-            }
         }
     }
 }

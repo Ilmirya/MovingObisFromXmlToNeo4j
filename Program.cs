@@ -35,7 +35,7 @@ namespace MovingObisFromXmlToNeo4j
         private static void DLMSObject(XmlNode node)
         {
             string class_ = node.Attributes[XmlNodeName.Type].Value.Substring(6);
-            Node parameter = new Node("ParameterTMPTMP", class_);
+            Node parameter = new Node("Parameter", class_);
             foreach (XmlNode child in node.ChildNodes)
             {
                 if(child.Name == XmlNodeName.LogicalName)
@@ -47,7 +47,7 @@ namespace MovingObisFromXmlToNeo4j
                     parameter.description = child.ChildNodes[0].Value;
                 }
             }
-            Neo4j.Instance.AddNode(parameter.id, parameter.type, parameter);
+            Neo4j.Instance.AddNode(parameter.obis, parameter.description, parameter.type, parameter);
         } 
     }
 
