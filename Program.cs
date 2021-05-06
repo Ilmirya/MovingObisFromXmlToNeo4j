@@ -10,9 +10,23 @@ namespace MovingObisFromXmlToNeo4j
         {
             XmlDocument xml = new XmlDocument();
             Console.WriteLine("Write full path to file:");
-            string path = Console.ReadLine();//F:\projects\MovingObisFromXmlToNeo4j\128.gxc
-            //xml.Load(path);
-            xml.Load("E:\\128.gxc");
+            bool isLoadFile = false;
+            do
+            {
+                try
+                {
+                    string path = Console.ReadLine();
+                    xml.Load(path);
+                    isLoadFile = true;
+                }
+                catch
+                {
+                    Console.WriteLine("Don't load file, try again");
+                }
+                
+            } while (isLoadFile == false);
+            
+            //xml.Load("E:\\128.gxc");
             XmlElement xmlElement = xml.DocumentElement;
 
             foreach(XmlNode node in xmlElement)
@@ -38,6 +52,7 @@ namespace MovingObisFromXmlToNeo4j
         private static void DLMSObject(XmlNode node)
         {
             string class_ = node.Attributes[XmlNodeName.Type].Value[6..];
+            //if (class_ != "Register" && class_ != "ProfileGeneric") return;
             Node parameter = new Node("Obis", class_);
             foreach (XmlNode child in node.ChildNodes)
             {
@@ -51,6 +66,9 @@ namespace MovingObisFromXmlToNeo4j
                     parameter.name = child.ChildNodes[0].Value;
                 }
             }
+            //if (parameter.obis.StartsWith("1") == false ||
+            //    parameter.description.Contains("specific") || 
+            //    parameter.description.Contains("Event")) return;
             Neo4j.Instance.AddNode(parameter.obis, parameter.description, parameter.type, parameter);
             Console.WriteLine($"[{obisCounter++}] OBIS:{parameter.obis} {parameter.description}");
         } 
