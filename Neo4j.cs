@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Dynamic;
 using System.Text;
 
@@ -15,7 +16,7 @@ namespace MovingObisFromXmlToNeo4j
 
         private Neo4j()
         {
-            string url = "http://neo4j:matrix@localhost:7474/db/data";
+            string url =  ConfigurationManager.AppSettings["neo4j-url"];
             _client = new GraphClient(new Uri(url));
             _client.ConnectAsync().Wait();
         }
